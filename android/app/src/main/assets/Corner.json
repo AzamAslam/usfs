@@ -1,0 +1,77 @@
+{
+    "version": 8,
+    "name": "Corner",
+    "metadata": {},
+    "center": [0,0],
+    "zoom": 12,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "Corner": {
+            "tiles": ["http://localhost/tile_server/ts/Corner/{z}/{x}/{y}.pbf"],
+            "type": "vector"
+        }
+    },
+    "layers": [
+        {
+            "id": "Corner_poly",
+            "type": "fill",
+            "source": "Corner",
+            "source-layer": "boundaries",
+            "paint": {
+                "fill-color": "hsl(78, 51%, 73%)",
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    0,
+                    6,
+                    0.5
+                ]
+            }
+        },
+       
+        {
+            "id": "Corner_line",
+            "type": "line",
+            "source": "Corner",
+            "source-layer": "boundaries",
+            "paint": {
+                "line-color": "hsl(205, 76%, 70%)",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.3],
+                    ["zoom"],
+                    8.5,
+                    0.1,
+                    20,
+                    8
+                ],
+                "line-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    8,
+                    0,
+                    8.5,
+                    1
+                ]
+            }
+        },
+
+
+        {
+            "id": "Corner_point",
+            "type": "symbol",
+            "source": "Corner",
+            "source-layer": "boundaries",
+            "paint": {
+                "text-color": "hsl(38, 19%, 29%)",
+                "text-halo-color": "hsl(0, 0%, 100%)",
+                "text-halo-width": 1
+            }
+        }
+        
+    ]
+}

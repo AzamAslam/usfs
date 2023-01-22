@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: mil.nga:sf:2.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga/sf/2.0.3/33debc1875cf4291656212ff0cb2b4a6a334f9d5/sf-2.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga/sf/2.0.3/1b9baed2c854ac847cb822aad31fac087b6d4b12/sf-2.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga/sf/2.0.3/b56541cc202a7d3d70da46e59d2ad86e742cfd3d/sf-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

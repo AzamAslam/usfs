@@ -1,0 +1,228 @@
+PODS:
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - device_info (0.0.1):
+    - Flutter
+  - DKImagePickerController/Core (4.3.2):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.3.2)
+  - DKImagePickerController/PhotoGallery (4.3.2):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.3.2)
+  - DKPhotoGallery (0.0.17):
+    - DKPhotoGallery/Core (= 0.0.17)
+    - DKPhotoGallery/Model (= 0.0.17)
+    - DKPhotoGallery/Preview (= 0.0.17)
+    - DKPhotoGallery/Resource (= 0.0.17)
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Core (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Model (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Preview (0.0.17):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SwiftyGif
+  - DKPhotoGallery/Resource (0.0.17):
+    - SDWebImage
+    - SwiftyGif
+  - file_picker (0.0.1):
+    - DKImagePickerController/PhotoGallery
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_downloader (0.0.1):
+    - Flutter
+  - flutter_inappwebview (0.0.1):
+    - Flutter
+    - flutter_inappwebview/Core (= 0.0.1)
+    - OrderedSet (~> 5.0)
+  - flutter_inappwebview/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 5.0)
+  - flutter_js (0.1.0):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - geolocator_apple (1.2.0):
+    - Flutter
+  - geopackage-ios (5.0.0):
+    - ogc-api-features-json-ios (~> 2.0.0)
+    - sf-proj-ios (~> 3.0.0)
+    - sf-wkb-ios (~> 3.0.0)
+    - sf-wkt-ios (~> 1.0.0)
+    - tiff-ios (~> 2.0.0)
+  - image_picker (0.0.1):
+    - Flutter
+  - ogc-api-features-json-ios (2.0.0):
+    - sf-geojson-ios (~> 2.0.0)
+  - open_file (0.0.1):
+    - Flutter
+  - OrderedSet (5.0.0)
+  - path_provider_ios (0.0.1):
+    - Flutter
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+  - proj4-ios (4.9.3)
+  - ReachabilitySwift (5.0.0)
+  - SDWebImage (5.12.3):
+    - SDWebImage/Core (= 5.12.3)
+  - SDWebImage/Core (5.12.3)
+  - sf-geojson-ios (2.0.0):
+    - sf-ios (~> 3.0.0)
+  - sf-ios (3.0.0)
+  - sf-proj-ios (3.0.0):
+    - proj4-ios (~> 4.9.3)
+    - sf-ios (~> 3.0.0)
+  - sf-wkb-ios (3.0.0):
+    - sf-ios (~> 3.0.0)
+  - sf-wkt-ios (1.0.0):
+    - sf-ios (~> 3.0.0)
+  - share (0.0.1):
+    - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - Swifter (1.5.0)
+  - SwiftyGif (5.4.3)
+  - SwiftyJSON (4.3.0)
+  - tiff-ios (2.0.0)
+  - Toast (4.0.0)
+  - url_launcher (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - file_picker (from `.symlinks/plugins/file_picker/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_downloader (from `.symlinks/plugins/flutter_downloader/ios`)
+  - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
+  - flutter_js (from `.symlinks/plugins/flutter_js/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
+  - geopackage-ios (~> 5.0)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - open_file (from `.symlinks/plugins/open_file/ios`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - share (from `.symlinks/plugins/share/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - Swifter (~> 1.5)
+  - SwiftyJSON (~> 4.0)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - DKImagePickerController
+    - DKPhotoGallery
+    - FMDB
+    - geopackage-ios
+    - ogc-api-features-json-ios
+    - OrderedSet
+    - proj4-ios
+    - ReachabilitySwift
+    - SDWebImage
+    - sf-geojson-ios
+    - sf-ios
+    - sf-proj-ios
+    - sf-wkb-ios
+    - sf-wkt-ios
+    - Swifter
+    - SwiftyGif
+    - SwiftyJSON
+    - tiff-ios
+    - Toast
+
+EXTERNAL SOURCES:
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  file_picker:
+    :path: ".symlinks/plugins/file_picker/ios"
+  Flutter:
+    :path: Flutter
+  flutter_downloader:
+    :path: ".symlinks/plugins/flutter_downloader/ios"
+  flutter_inappwebview:
+    :path: ".symlinks/plugins/flutter_inappwebview/ios"
+  flutter_js:
+    :path: ".symlinks/plugins/flutter_js/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  geolocator_apple:
+    :path: ".symlinks/plugins/geolocator_apple/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  open_file:
+    :path: ".symlinks/plugins/open_file/ios"
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  share:
+    :path: ".symlinks/plugins/share/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  connectivity_plus: 413a8857dd5d9f1c399a39130850d02fe0feaf7e
+  device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
+  DKImagePickerController: b5eb7f7a388e4643264105d648d01f727110fc3d
+  DKPhotoGallery: fdfad5125a9fdda9cc57df834d49df790dbb4179
+  file_picker: 3e6c3790de664ccf9b882732d9db5eaf6b8d4eb1
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_downloader: 058b9c41564a90500f67f3e432e3524613a7fd83
+  flutter_inappwebview: bfd58618f49dc62f2676de690fc6dcda1d6c3721
+  flutter_js: 95929d4e146e8ceb1c8e1889d8c2065c5d840076
+  fluttertoast: 6122fa75143e992b1d3470f61000f591a798cc58
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  geolocator_apple: b741765c55dc21950e3e106e8b3584e55cf81ce5
+  geopackage-ios: 3400382233eb2f76620f9ee4dd2e7ab2c4b072cf
+  image_picker: 541dcbb3b9cf32d87eacbd957845d8651d6c62c3
+  ogc-api-features-json-ios: d306af8b4400fda9dfd5132ae5046b668cec6aa4
+  open_file: 02eb5cb6b21264bd3a696876f5afbfb7ca4f4b7d
+  OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
+  path_provider_ios: 7d7ce634493af4477d156294792024ec3485acd5
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+  proj4-ios: fa2f3ab9ba9ba727bd10bc12aea735d0c3927ef4
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
+  sf-geojson-ios: f51ebe88dec62f2795c73d919d14c03c02b70f8d
+  sf-ios: 03d349316c62d9602e354bde667427c640c5df7b
+  sf-proj-ios: 3beec338d06f06abebea3732db420f8b22c9a595
+  sf-wkb-ios: 36afa0b22985655bed6000182136a1adc760f8ea
+  sf-wkt-ios: 38ea73e64c36d2b31ee0d2fe5d0b5516b9e5e8bd
+  share: 0b2c3e82132f5888bccca3351c504d0003b3b410
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  Swifter: e71dd674404923d7f03ebb03f3f222d1c570bc8e
+  SwiftyGif: 6c3eafd0ce693cad58bb63d2b2fb9bacb8552780
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  tiff-ios: f6e34155f542cf83d9b817327e4a0a4ad0e1b4f8
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  url_launcher: a1c0cc845906122c4784c542523d8cacbded5626
+  webview_flutter_wkwebview: 005fbd90c888a42c5690919a1527ecc6649e1162
+
+PODFILE CHECKSUM: 317b747add289d9dac635c8f93b5032503bcc144
+
+COCOAPODS: 1.11.3

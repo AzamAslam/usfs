@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.locationtech.proj4j:proj4j:1.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.locationtech.proj4j/proj4j/1.1.1/a56d3151af9d5f5e909c456f89998ccdb48811a7/proj4j-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.locationtech.proj4j/proj4j/1.1.1/a94134cfc86326efa4a3363d64660c63385b0c01/proj4j-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.locationtech.proj4j/proj4j/1.1.1/324613f2836878f5f6a2c03f9f7c3c23939c9ca3/proj4j-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

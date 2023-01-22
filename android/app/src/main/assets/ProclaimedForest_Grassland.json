@@ -1,0 +1,77 @@
+{
+    "version": 8,
+    "name": "ProclaimedForest_Grassland Template",
+    "metadata": {},
+    "center": [0,0],
+    "zoom": 12,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "ProclaimedForest_Grassland": {
+            "tiles": ["http://localhost/tile_server/ts/ProclaimedForest_Grassland/{z}/{x}/{y}.pbf"],
+            "type": "vector"
+        }
+    },
+    "layers": [
+        {
+            "id": "ProclaimedForest_Grassland_poly",
+            "type": "fill",
+            "source": "ProclaimedForest_Grassland",
+            "source-layer": "boundaries",
+            "paint": {
+                "fill-color": "hsl(78, 51%, 73%)",
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    0,
+                    6,
+                    0.5
+                ]
+            }
+        },
+       
+        {
+            "id": "ProclaimedForest_Grassland_line",
+            "type": "line",
+            "source": "ProclaimedForest_Grassland",
+            "source-layer": "boundaries",
+            "paint": {
+                "line-color": "hsl(205, 76%, 70%)",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.3],
+                    ["zoom"],
+                    8.5,
+                    0.1,
+                    20,
+                    8
+                ],
+                "line-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    8,
+                    0,
+                    8.5,
+                    1
+                ]
+            }
+        },
+
+
+        {
+            "id": "ProclaimedForest_Grassland_point",
+            "type": "symbol",
+            "source": "ProclaimedForest_Grassland",
+            "source-layer": "boundaries",
+            "paint": {
+                "text-color": "hsl(38, 19%, 29%)",
+                "text-halo-color": "hsl(0, 0%, 100%)",
+                "text-halo-width": 1
+            }
+        }
+        
+    ]
+}

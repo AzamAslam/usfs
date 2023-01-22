@@ -1,0 +1,77 @@
+{
+    "version": 8,
+    "name": "National_Forest_System_Roads Template",
+    "metadata": {},
+    "center": [0,0],
+    "zoom": 12,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "National_Forest_System_Roads": {
+            "tiles": ["http://localhost/tile_server/ts/National_Forest_System_Roads/{z}/{x}/{y}.pbf"],
+            "type": "vector"
+        }
+    },
+    "layers": [
+        {
+            "id": "National_Forest_System_Roads_poly",
+            "type": "fill",
+            "source": "National_Forest_System_Roads",
+            "source-layer": "boundaries",
+            "paint": {
+                "fill-color": "hsl(78, 51%, 73%)",
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    0,
+                    6,
+                    0.5
+                ]
+            }
+        },
+       
+        {
+            "id": "National_Forest_System_Roads_line",
+            "type": "line",
+            "source": "National_Forest_System_Roads",
+            "source-layer": "boundaries",
+            "paint": {
+                "line-color": "hsl(205, 76%, 70%)",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.3],
+                    ["zoom"],
+                    8.5,
+                    0.1,
+                    20,
+                    8
+                ],
+                "line-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    8,
+                    0,
+                    8.5,
+                    1
+                ]
+            }
+        },
+
+
+        {
+            "id": "National_Forest_System_Roads_point",
+            "type": "symbol",
+            "source": "National_Forest_System_Roads",
+            "source-layer": "boundaries",
+            "paint": {
+                "text-color": "hsl(38, 19%, 29%)",
+                "text-halo-color": "hsl(0, 0%, 100%)",
+                "text-halo-width": 1
+            }
+        }
+        
+    ]
+}

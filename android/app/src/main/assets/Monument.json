@@ -1,0 +1,77 @@
+{
+    "version": 8,
+    "name": "Monument Template",
+    "metadata": {},
+    "center": [0,0],
+    "zoom": 12,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "Monument": {
+            "tiles": ["http://localhost/tile_server/ts/Monument/{z}/{x}/{y}.pbf"],
+            "type": "vector"
+        }
+    },
+    "layers": [
+        {
+            "id": "Monument_poly",
+            "type": "fill",
+            "source": "LandUtilizationProject",
+            "source-layer": "layername",
+            "paint": {
+                "fill-color": "hsl(78, 51%, 73%)",
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    0,
+                    6,
+                    0.5
+                ]
+            }
+        },
+       
+        {
+            "id": "Monument_line",
+            "type": "line",
+            "source": "LandUtilizationProject",
+            "source-layer": "layername",
+            "paint": {
+                "line-color": "hsl(205, 76%, 70%)",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.3],
+                    ["zoom"],
+                    8.5,
+                    0.1,
+                    20,
+                    8
+                ],
+                "line-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    8,
+                    0,
+                    8.5,
+                    1
+                ]
+            }
+        },
+
+
+        {
+            "id": "Monument_point",
+            "type": "symbol",
+            "source": "LandUtilizationProject",
+            "source-layer": "layername",
+            "paint": {
+                "text-color": "hsl(38, 19%, 29%)",
+                "text-halo-color": "hsl(0, 0%, 100%)",
+                "text-halo-width": 1
+            }
+        }
+        
+    ]
+}

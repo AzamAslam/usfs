@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: mil.nga.oapi.features:oapi-features-json:1.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga.oapi.features/oapi-features-json/1.0.2/b7bd7aebb2ea0530cff7653a7f52d4711a8f18b3/oapi-features-json-1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga.oapi.features/oapi-features-json/1.0.2/19a3e32a7a7a9cdf1baa86b3c4140b5077966f7d/oapi-features-json-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga.oapi.features/oapi-features-json/1.0.2/207890c1d125dbed3f50527883e26349921af355/oapi-features-json-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

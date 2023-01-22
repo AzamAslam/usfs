@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: mil.nga.sf:sf-wkb:2.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga.sf/sf-wkb/2.0.3/aad3e94d9baf2c48db3bc6fadbd3aeb3f9595e14/sf-wkb-2.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga.sf/sf-wkb/2.0.3/6351bc06c236e37804452a1de2b3e21a05e9763b/sf-wkb-2.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga.sf/sf-wkb/2.0.3/a66adc2426fdf41a892f00bf36832bf5266e8d98/sf-wkb-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

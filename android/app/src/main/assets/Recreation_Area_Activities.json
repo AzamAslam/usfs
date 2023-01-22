@@ -1,0 +1,77 @@
+{
+    "version": 8,
+    "name": "Recreation_Area_Activities Template",
+    "metadata": {},
+    "center": [0,0],
+    "zoom": 12,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "Recreation_Area_Activities": {
+            "tiles": ["http://localhost/tile_server/ts/Recreation_Area_Activities/{z}/{x}/{y}.pbf"],
+            "type": "vector"
+        }
+    },
+    "layers": [
+        {
+            "id": "Recreation_Area_Activities_poly",
+            "type": "fill",
+            "source": "Recreation_Area_Activities",
+            "source-layer": "boundaries",
+            "paint": {
+                "fill-color": "hsl(78, 51%, 73%)",
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    0,
+                    6,
+                    0.5
+                ]
+            }
+        },
+       
+        {
+            "id": "Recreation_Area_Activities_line",
+            "type": "line",
+            "source": "Recreation_Area_Activities",
+            "source-layer": "boundaries",
+            "paint": {
+                "line-color": "hsl(205, 76%, 70%)",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.3],
+                    ["zoom"],
+                    8.5,
+                    0.1,
+                    20,
+                    8
+                ],
+                "line-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    8,
+                    0,
+                    8.5,
+                    1
+                ]
+            }
+        },
+
+
+        {
+            "id": "Recreation_Area_Activities_point",
+            "type": "symbol",
+            "source": "Recreation_Area_Activities",
+            "source-layer": "boundaries",
+            "paint": {
+                "text-color": "hsl(38, 19%, 29%)",
+                "text-halo-color": "hsl(0, 0%, 100%)",
+                "text-halo-width": 1
+            }
+        }
+        
+    ]
+}

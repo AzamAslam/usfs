@@ -1,0 +1,45 @@
+{
+    "version": 8,
+    "sprite": "https://cdn.arcgis.com/sharing/rest/content/items/8a2cba3b0ebf4140b7c0dc5ee149549a/resources/styles/../sprites/sprite",
+    "glyphs": "https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf",
+    "sources": {
+        "esri": {
+            "type": "vector",
+            "tiles": ["put-your-url"]
+        }
+    },
+    "layers": [
+        {
+            "id": "MilitaryBases",
+            "type": "line",
+            "source": "esri",
+            "source-layer": "MilitaryBases",
+            "layout": {
+                "line-join": "round"
+            },
+            "paint": {
+                "line-color": "red",
+                "line-width": 2
+            }
+        },
+        {
+            "id": "MilitaryBasesPoly",
+            "type": "fill",
+            "source": "esri",
+            "source-layer": "MilitaryBases",
+            "paint": {
+                "fill-color": "green",
+                "fill-opacity": 0.6
+            }
+        },
+        {
+            "id": "MilitaryBasesPoint",
+            "type": "circle",
+            "source": "MilitaryBases",
+            "paint": {
+                "circle-radius": 5,
+                "circle-color": "red"
+            }
+        }
+    ]
+}

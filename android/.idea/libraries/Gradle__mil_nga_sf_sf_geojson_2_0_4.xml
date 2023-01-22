@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: mil.nga.sf:sf-geojson:2.0.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga.sf/sf-geojson/2.0.4/1bcff75853737bd00d5c3216cb43ba7d0a00e646/sf-geojson-2.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga.sf/sf-geojson/2.0.4/db03f1ee4df544bb81b599239cd83ea16e00415/sf-geojson-2.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga.sf/sf-geojson/2.0.4/90486163d12ef639467c579c022efb49c19f19d8/sf-geojson-2.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: mil.nga.geopackage:geopackage-android:4.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f8e57e95f9dfc00bdef3d84a604bae8/jetified-geopackage-android-4.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f8e57e95f9dfc00bdef3d84a604bae8/jetified-geopackage-android-4.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f8e57e95f9dfc00bdef3d84a604bae8/jetified-geopackage-android-4.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga.geopackage/geopackage-android/4.0.0/7e81f977bda8eceaa1f21a6ed0db0663dea68ff3/geopackage-android-4.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga.geopackage/geopackage-android/4.0.0/997048805fb4ed34f8d56cff70c6d7630f99ab39/geopackage-android-4.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

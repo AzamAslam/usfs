@@ -1,0 +1,77 @@
+{
+    "version": 8,
+    "name": "NFS_landUnit Template",
+    "metadata": {},
+    "center": [0,0],
+    "zoom": 12,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "NFS_landUnit": {
+            "tiles": ["http://localhost/tile_server/ts/NFS_landUnit/{z}/{x}/{y}.pbf"],
+            "type": "vector"
+        }
+    },
+    "layers": [
+        {
+            "id": "NFS_landUnit_poly",
+            "type": "fill",
+            "source": "NFS_landUnit",
+            "source-layer": "boundaries",
+            "paint": {
+                "fill-color": "hsl(78, 51%, 73%)",
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    0,
+                    6,
+                    0.5
+                ]
+            }
+        },
+       
+        {
+            "id": "NFS_landUnit_line",
+            "type": "line",
+            "source": "NFS_landUnit",
+            "source-layer": "boundaries",
+            "paint": {
+                "line-color": "hsl(205, 76%, 70%)",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.3],
+                    ["zoom"],
+                    8.5,
+                    0.1,
+                    20,
+                    8
+                ],
+                "line-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    8,
+                    0,
+                    8.5,
+                    1
+                ]
+            }
+        },
+
+
+        {
+            "id": "NFS_landUnit_point",
+            "type": "symbol",
+            "source": "NFS_landUnit",
+            "source-layer": "boundaries",
+            "paint": {
+                "text-color": "hsl(38, 19%, 29%)",
+                "text-halo-color": "hsl(0, 0%, 100%)",
+                "text-halo-width": 1
+            }
+        }
+        
+    ]
+}

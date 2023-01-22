@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: mil.nga:tiff:2.0.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga/tiff/2.0.2/37759157907d84de28dcc435ef987dd0ea28a63b/tiff-2.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga/tiff/2.0.2/5bdc1429e9aa4cae80cbfa1b06b08f6265aa0f94/tiff-2.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mil.nga/tiff/2.0.2/53ad6beb884a65d633ad10758a9ce27ec1c962cd/tiff-2.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
